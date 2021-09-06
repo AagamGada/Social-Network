@@ -30,7 +30,7 @@ const EditProfile = ({ setOpen }) => {
     if (fileName === undefined) {
       profileImage = userState.user.image;
     } else {
-      profileImage = `/Social-Hunt/images/${fileName}`;
+      profileImage = `https://iaagam.com/Social-Hunt/images/${fileName}`;
     }
     try {
       const { data } = await axios.put("/Social-Hunt/api/user/update", {

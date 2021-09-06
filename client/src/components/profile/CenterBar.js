@@ -45,7 +45,7 @@ export default function CenterBar() {
     if(fileName === undefined){
       profileImage = "";
     }else{
-      profileImage = `/Social-Hunt/images/${fileName}`;
+      profileImage = `https://iaagam.com/Social-Hunt/images/${fileName}`;
     }
     try {
       if ((post === "") && (fileName === undefined )) {
